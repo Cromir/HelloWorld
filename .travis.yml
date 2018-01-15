@@ -1,6 +1,6 @@
 language: android
 script:
-  gradle build
+  gradle --daemon build
 android:
   components:
     # Uncomment the lines below if you want to
