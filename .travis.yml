@@ -11,6 +11,8 @@ android:
     # https://github.com/travis-ci/travis-ci/issues/6040#issuecomment-219367943
     - tools
     - tools
+    - android-26
+    - sys-img-armeabi-v7a-android-26
   licenses:
     - 'android-sdk-license-2742d1c5'
 
