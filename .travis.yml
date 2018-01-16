@@ -19,9 +19,6 @@ jdk:
 
 env:
   matrix:
-    - ANDROID_TARGET=16
-    - ANDROID_TARGET=17
-    - ANDROID_TARGET=18
     - ANDROID_TARGET=19
     - ANDROID_TARGET=21
     - ANDROID_TARGET=22
