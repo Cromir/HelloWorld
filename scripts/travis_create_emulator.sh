@@ -2,7 +2,7 @@
 
 set -e
 
-target="system-images;android-${ANDROID_TARGET};google_apis_playstore;x86"
+target="system-images;android-${ANDROID_TARGET};default;armeabi-v7a"
 echo y | sdkmanager --update
 echo y | sdkmanager --install $target
 avdmanager create avd --force -n test -k $target --device "Pixel" -c 2048M
