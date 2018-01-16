@@ -22,6 +22,7 @@ env:
     - ANDROID_TARGET=19
     - ANDROID_TARGET=21
     - ANDROID_TARGET=22
+    - ANDROID_TARGET=27
 
 script:
   - ./scripts/travis_instrumentation.sh
