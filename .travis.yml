@@ -17,12 +17,12 @@ jdk:
 
 env:
   matrix:
-    - COMPONENT=instrumentation ANDROID_TARGET=16
-    - COMPONENT=instrumentation ANDROID_TARGET=17
-    - COMPONENT=instrumentation ANDROID_TARGET=18
-    - COMPONENT=instrumentation ANDROID_TARGET=19
-    - COMPONENT=instrumentation ANDROID_TARGET=21
-    - COMPONENT=instrumentation ANDROID_TARGET=22
+    - ANDROID_TARGET=16
+    - ANDROID_TARGET=17
+    - ANDROID_TARGET=18
+    - ANDROID_TARGET=19
+    - ANDROID_TARGET=21
+    - ANDROID_TARGET=22
 
 script:
   - ./scripts/travis_instrumentation.sh
