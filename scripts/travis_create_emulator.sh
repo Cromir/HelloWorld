@@ -2,13 +2,7 @@
 
 set -e
 
-target=""
-if [ ${ANDROID_TARGET} -gt 25 ] 
-then
-	target="system-images;android-${ANDROID_TARGET};google_apis_playstore;x86"
-else	
-	target="system-images;android-${ANDROID_TARGET};default;armeabi-v7a"	
-fi
+target="system-images;android-${ANDROID_TARGET};default;armeabi-v7a"
 
 echo y | sdkmanager --update
 echo y | sdkmanager --install $target
